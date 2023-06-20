@@ -1,0 +1,26 @@
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parse
+INFO: parse start
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseAdd
+INFO: parseAdd start: [x, +, 1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseMul
+INFO: parseMul start: [x, +, 1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parsePrimary
+INFO: parsePrimary start: [x, +, 1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parsePrimary
+INFO: case x: [+, 1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseMul
+INFO: case Muldefault: [1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseAdd
+INFO: parseAddAfrMul: [+, 1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseAdd
+INFO: case +: [1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseMul
+INFO: parseMul start: [1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parsePrimary
+INFO: parsePrimary start: [1, ), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parsePrimary
+INFO: case Pridefault: [), )]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseMul
+INFO: case Muldefault: [)]
+Mar 31, 2022 9:52:55 AM edu.curtin.matheval.ExprParser parseAdd
+INFO: case adddefault: [)]
